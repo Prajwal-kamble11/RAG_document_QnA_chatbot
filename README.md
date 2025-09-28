@@ -20,49 +20,57 @@
   
   1. **Clone the repository**
   
-    ```bash
+  ```bash
 
   git clone https://github.com/Prajwal-kamble11/RAG_document_QnA_chatbot.git
   cd RAG_document_QnA_chatbot
 
-    ```
+  ```
   
   2. Create a virtual environment
      
-    ```bash
+  ```bash
 
   python -m venv venv
 
-    ```
+  ```
   
   3. Activate the virtual environment
   
   -Windows:
   
-     ```bash
+  ```bash
+
      venv\Scripts\activate
-     ```
+     
+  ```
   
   -Mac/Linux:
   
-    ```bash
+  ```bash
+
     source venv/bin/activate
-    ```
+
+```
   
   4. Install dependencies
   
-         ```bash
+
+     ```bash
+     
      pip install -r requirements.txt
 
-         ```
+     ```
   
   ## Setup
   
   1. Create a ```.env``` file in the project root with your API keys:
   
-    ```bash
+  ```bash
+
     GROQ_API_KEY=<your_groq_api_key>
-    ```
+
+  ```
   2. Place your PDF files in the research_papers folder.
   
   
@@ -70,9 +78,11 @@
   
   Run the Streamlit app:
   
-    ```bash
+  ```bash
+
     streamlit run app.py
-    ```
+
+  ```
   
   - Enter a query in the input box to ask questions about your documents.
   
