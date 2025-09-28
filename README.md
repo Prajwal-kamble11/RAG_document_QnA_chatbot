@@ -20,16 +20,20 @@
   
   1. **Clone the repository**
   
-  ```bash
+    ```bash
+
   git clone https://github.com/Prajwal-kamble11/RAG_document_QnA_chatbot.git
   cd RAG_document_QnA_chatbot
-  ```
+
+    ```
   
   2. Create a virtual environment
      
-  ```bash
+    ```bash
+
   python -m venv venv
-  ```
+
+    ```
   
   3. Activate the virtual environment
   
@@ -47,9 +51,10 @@
   
   4. Install dependencies
   
-     ```bash
+         ```bash
      pip install -r requirements.txt
-     ```
+
+         ```
   
   ## Setup
   
