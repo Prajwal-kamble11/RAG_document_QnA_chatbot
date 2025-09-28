@@ -56,11 +56,11 @@
   4. Install dependencies
   
 
-     ```bash
+  ```bash
      
-     pip install -r requirements.txt
+  pip install -r requirements.txt
 
-     ```
+  ```
   
   ## Setup
   
@@ -80,7 +80,7 @@
   
   ```bash
 
-    streamlit run app.py
+  streamlit run app.py
 
   ```
   
